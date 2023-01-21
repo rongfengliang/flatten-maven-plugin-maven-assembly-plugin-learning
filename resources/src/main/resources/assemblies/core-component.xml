@@ -19,10 +19,11 @@
 <component>
     <dependencySets>
         <dependencySet>
-            <useProjectArtifact>false</useProjectArtifact>
+            <useProjectArtifact>true</useProjectArtifact>
             <outputDirectory>jar</outputDirectory>
             <includes>
                 <include>com.alibaba.*:*:jar</include>
+                <include>com.typesafe:*:jar</include>
                 <include>com.dalong:*:jar</include>
             </includes>
             <scope>runtime</scope>
